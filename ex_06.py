@@ -14,4 +14,4 @@ notasDeUm = int((valorTroco - (notasDeCem * 100) - (notasDeDez * 10)) / 1)
 
 print(f"O valor do troco a ser devolvido é de {valorTroco:.0f}")
 print(f"O troco possível é de {notasDeCem:.0f} notas de R$100, {notasDeDez:.0f} notas de R$10 e {notasDeUm:.0f} notas de R$1.")
-print("Se dever centavos ao cliente, dê em balinhas ;)")
+print("Se dever centavos ao cliente, dê em paçoca ;)")

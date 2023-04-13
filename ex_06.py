@@ -3,8 +3,8 @@
 #   troco. Calcular e mostrar a quantidade de cada tipo de cédula que o caixa deve fornecer como
 #   troco. Mostrar, também o valor da compra e do troco.
 
-valorDaConta = float(input("Insira o valor da conta devida:"))
-dineroDadoPeloCliente = float(input("Insira o valor que o cliente entregou para pagar a conta:"))
+valorDaConta = float(input("Insira o valor da conta devida. R$"))
+dineroDadoPeloCliente = float(input("Insira o valor que o cliente entregou para pagar a conta. R$"))
 
 valorTroco = dineroDadoPeloCliente - valorDaConta
 

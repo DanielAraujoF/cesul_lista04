@@ -3,8 +3,8 @@
 #   dimensões de dois lados de uma casa (em metros), calcule a área da casa (A = lado * lado), e
 #   mostre quantos watts serão necessários para iluminar corretamente esta casa.
 
-ladoA = int(input("Quanto mede o comprimento do comodo da casa"))
-ladoB = int(input("Quanto mede o comprimento do comodo da casa"))
+ladoA = int(input("Quanto mede o comprimento do cômodo da casa: "))
+ladoB = int(input("Quanto mede o comprimento do cômodo da casa: "))
 
 area = a * b
 

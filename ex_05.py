@@ -3,8 +3,15 @@
 
 numero = int(input("Insira um número de 3 dígitos: "))
 
-primNum = numero % 100
-segNum = numero % 10
-tercNum = numero % 1
+primNum = numero / 100
+restoPrimNum = numero % 100
 
-numTotal =
+segNum = restoPrimNum / 10
+restoSegNum = restoPrimNum % 10
+
+tercNum = numero / 1
+restoTercNum = restoSegNum % 1
+
+numTotal = restoPrimNum + restoSegNum + restoTercNum
+
+print(f"A soma dos três dígitos do número inserido é {numTotal:.0f}")
